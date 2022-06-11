@@ -6,7 +6,7 @@
 ;; Maintainer: Shen, Jen-Chieh <jcs090218@gmail.com>
 ;; URL: https://github.com/emacs-vs/vsc-multiple-cursors
 ;; Version: 0.1.0
-;; Package-Requires: ((emacs "26.1"))
+;; Package-Requires: ((emacs "27.1") (multiple-cursors "1.4.0"))
 ;; Keywords: vscode vsc multiple-cursors
 
 ;; This file is not part of GNU Emacs.
