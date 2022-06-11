@@ -66,10 +66,6 @@
       (unless (> before-unmark-cur-cnt (mc/num-cursors))
         (call-interactively #'mc/mark-next-like-this)))))
 
-(defun vsc-multiple-cursors--maybe-multiple-cursors-mode ()
-  "Maybe enable `multiple-cursors-mode' depends on the cursor number."
-  (if (> (mc/num-cursors) 1) (multiple-cursors-mode 1) (multiple-cursors-mode 0)))
-
 (defun vsc-multiple-cursors--furthest-cursor-before-point ()
   "Goto the furthest cursor before point."
   (when (mc/furthest-cursor-before-point) (goto-char (overlay-end (mc/furthest-cursor-before-point)))))
@@ -98,7 +94,7 @@
           (setq break t))
         (forward-line -1))
       (unless break (user-error "[INFO] no previous similar match"))))
-  (vsc-multiple-cursors--maybe-multiple-cursors-mode))
+  (mc/maybe-multiple-cursors-mode))
 
 ;;;###autoload
 (defun vsc-multiple-cursors-mark-next-similar-this-line (&optional sdl)
@@ -120,7 +116,7 @@
           (setq break t))
         (forward-line 1))
       (unless break (user-error "[INFO] no next similar match"))))
-  (vsc-multiple-cursors--maybe-multiple-cursors-mode))
+  (mc/maybe-multiple-cursors-mode))
 
 ;;;###autoload
 (defun vsc-multiple-cursors-inc-similarity ()
