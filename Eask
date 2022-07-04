@@ -3,7 +3,7 @@
          "multiple-curosrs integration behave like VSCode")
 
 (website-url "https://github.com/emacs-vs/vsc-multiple-cursors")
-(keywords "vscode""vsc" "multiple-cursors")
+(keywords "convenience" "vscode" "vsc" "multiple-cursors")
 
 (package-file "vsc-multiple-cursors.el")
 
