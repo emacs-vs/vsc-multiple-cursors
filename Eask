@@ -1,6 +1,6 @@
 (package "vsc-multiple-cursors"
          "0.1.0"
-         "multiple-curosrs integration behave like VSCode")
+         "multiple-cursors integration behave like VSCode")
 
 (website-url "https://github.com/emacs-vs/vsc-multiple-cursors")
 (keywords "convenience" "vscode" "vsc" "multiple-cursors")
