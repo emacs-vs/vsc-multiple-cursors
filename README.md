@@ -2,7 +2,7 @@
 [![JCS-ELPA](https://raw.githubusercontent.com/jcs-emacs/badges/master/elpa/v/vsc-multiple-cursors.svg)](https://jcs-emacs.github.io/jcs-elpa/#/vsc-multiple-cursors)
 
 # vsc-multiple-cursors
-> multiple-curosrs integration behave like VSCode
+> multiple-cursors integration behave like VSCode
 
 [![CI](https://github.com/emacs-vs/vsc-multiple-cursors/actions/workflows/test.yml/badge.svg)](https://github.com/emacs-vs/vsc-multiple-cursors/actions/workflows/test.yml)
 
