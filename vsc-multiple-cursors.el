@@ -1,4 +1,4 @@
-;;; vsc-multiple-cursors.el --- multiple-curosrs integration behave like VSCode  -*- lexical-binding: t; -*-
+;;; vsc-multiple-cursors.el --- multiple-cursors integration behave like VSCode  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2022-2024  Shen, Jen-Chieh
 
@@ -26,7 +26,7 @@
 
 ;;; Commentary:
 ;;
-;; multiple-curosrs integration behave like VSCode.
+;; multiple-cursors integration behave like VSCode.
 ;;
 
 ;;; Code:
@@ -34,7 +34,7 @@
 (require 'multiple-cursors)
 
 (defgroup vsc-multiple-cursors nil
-  "VSCode integration multiple-curosrs."
+  "VSCode integration multiple-cursors."
   :prefix "vsc-multiple-cursors-"
   :group 'convenience
   :group 'tools
