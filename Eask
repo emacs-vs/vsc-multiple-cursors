@@ -1,3 +1,5 @@
+;; -*- mode: eask; lexical-binding: t -*-
+
 (package "vsc-multiple-cursors"
          "0.1.0"
          "multiple-cursors integration behave like VSCode")
